@@ -2,7 +2,7 @@ lint-frontend:
 	make -C my-slack lint
 
 install:
-	npm ci
+	npm ci && npm ci --prefix my-slack
 
 start-frontend:
 	make -C my-slack start
